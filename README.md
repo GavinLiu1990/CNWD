@@ -1,8 +1,8 @@
 #### 概述
 
-1.本程序用于中文新词发现。不依赖于已有词典、词库，输入中文文本，即可发现中文新词，属非监督式学习。
-2.本程序支持中文2字新词、3字新词和4字新词的发现。
-3.需要python3及以上
+1.本程序用于中文新词发现。不依赖于已有词典、词库，输入中文文本，即可发现中文新词，属非监督式学习。 <br>
+2.本程序支持中文2字新词、3字新词和4字新词的发现。 <br>
+3.需要python3及以上。 <br>
 
 #### 算法参考
 
@@ -29,12 +29,12 @@ cnwd.py Input Output [options]
 	 
 	 -d whether output debug file,default=False
 	 
->示例1  cnwd.py  TestData  newword
->示例2  cnwd.py  TestData  newword  -c 0.9  -b 0.9  -e 0.9
->示例3  cnwd.py  TestData  newword  -C 3  -b 0.9  -E 0
+>示例1  cnwd.py  TestData  newword <br>
+>示例2  cnwd.py  TestData  newword  -c 0.9  -b 0.9  -e 0.9 <br>
+>示例3  cnwd.py  TestData  newword  -C 3  -b 0.9  -E 0 <br>
 	 
-#### Tips
-1.如果文件较大，如一部长篇小说，新词发现参数建议使用比值。如cnwd.py  TestData  newword  -c 0.9  -b 0.9  -e 0.9
-2.如果文件较小，如一篇体育新闻，新词发现参数建议使用实数实数值。cnwd.py  TestData  newword  -C 3  -B 2  -E 0
+#### 建议
 
-	 
+1.如果文件较大，如一部长篇小说，新词发现参数建议使用比值。如cnwd.py  TestData  newword  -c 0.9  -b 0.9  -e 0.9 <br>
+2.如果文件较小，如一篇体育新闻，新词发现参数建议使用实数实数值。cnwd.py  TestData  newword  -C 3  -B 2  -E 0 <br>
+ 
