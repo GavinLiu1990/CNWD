@@ -36,5 +36,5 @@ cnwd.py Input Output [options]
 #### 建议
 
 1.如果文件较大，如一部长篇小说，新词发现参数建议使用比值。如cnwd.py  TestData  newword  -c 0.9  -b 0.9  -e 0.9 <br>
-2.如果文件较小，如一篇体育新闻，新词发现参数建议使用实数实数值。cnwd.py  TestData  newword  -C 3  -B 2  -E 0 <br>
+2.如果文件较小，如一篇体育新闻，新词发现参数建议使用实数实数值。如cnwd.py  TestData  newword  -C 3  -B 2  -E 0 <br>
  
